@@ -12,8 +12,6 @@ public class Peroutka {
 
         System.out.println("Zadejte počet znaků ve Wordu nebo řádků v Hermesu:");
         int a = scanner.nextInt();
-        // String vstup = scanner.nextLine();
-        // int a = Integer.parseInt(vstup);
 
         int pocetRadku = a / 29;                        // 1 řádek = 29 znaků
         float pocetZnaku = a * 29;
