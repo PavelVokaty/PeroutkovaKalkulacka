@@ -2,16 +2,6 @@
  * Rychlá kalkulačka pro přepočet novinových řádků na znaky a opačně v redakčním systému Hermes Lidových novin
 */
 
-/**
- * Dear IntelliJ and Java,
- *
- * execute this command please. Thank you very much.
- *
- * I am grateful to work with you.
- *
- * Pavel
- */
-
 import java.util.Scanner;
 
 public class Peroutka {
