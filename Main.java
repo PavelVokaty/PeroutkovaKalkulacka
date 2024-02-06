@@ -15,13 +15,13 @@ public class Peroutka {
         int a = scanner.nextInt();
 
         // Výpočty řádků, znaků a otázek s odpověďmi
-        int pocetRadku = a / 29;                        // 1 řádek = 29 znaků
+        int pocetRadku = a / 29;
         float pocetZnaku = a * 29;
-        int pocetRadkuOrientace = a / 35;               // 1 řádek = 35 znaků
+        int pocetRadkuOrientace = a / 35;
         float pocetZnakuOrientace = a * 35;
-        float pocetNormostran = pocetZnaku / 1800;      // 1 normostrana = 1800 znaků
-        int pocetOtazekZnaku = a / 608;                 // 1 otázka s odpovědí = 608 znaků
-        int pocetOtazekRadku = a / 24;                  // 1 otázka s odpovědí = 24 řádků
+        float pocetNormostran = pocetZnaku / 1800;
+        int pocetOtazekZnaku = a / 608;
+        int pocetOtazekRadku = a / 24;
 
         // Výpis přepočtených řádků, znaků a otázek s odpověďmi
         System.out.println("\nZNAKY");
