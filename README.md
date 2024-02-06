@@ -1,0 +1,1 @@
+Peroutkova kalkulačka Hermesu – Rychlá kalkulačka pro přepočet novinových řádků na znaky a opačně v redakčním systému Hermes Lidových novin. Napsána je v jazyce Java a nastavená pro layout rubriky domácího zpravodajství a Orientace LN. Kromě řádků a znaků zohledňuje také otázky a odpovědi v rozhovorech plus extra peres.
