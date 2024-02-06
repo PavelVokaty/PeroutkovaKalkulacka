@@ -43,6 +43,6 @@ public class Peroutka {
         System.out.println("- MS WORD - " + a + " znaků je " + pocetRadkuOrientace + " řádků v Hermesu");
         System.out.println("- HERMES - " + a + " řádků je " + pocetZnakuOrientace + " znaků ve Wordu (což je " + pocetNormostran + " normostran)");
 
-        System.out.println("\nDíky za použití a někdy se zase stavte!");
+        System.out.println("\nDěkuji za použití a někdy se zase stavte!");
     }
 }
