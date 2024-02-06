@@ -27,7 +27,7 @@ public class Peroutka {
         // Výpočty řádků, znaků a otázek s odpověďmi
         int pocetRadku = a / 29;                        // 1 řádek = 29 znaků
         float pocetZnaku = a * 29;
-        int pocetRadkuOrientace = a / 35;               // 1 řádek = 29 znaků
+        int pocetRadkuOrientace = a / 35;               // 1 řádek = 35 znaků
         float pocetZnakuOrientace = a * 35;
         float pocetNormostran = pocetZnaku / 1800;      // 1 normostrana = 1800 znaků
         int pocetOtazekZnaku = a / 608;                 // 1 otázka s odpovědí = 608 znaků
