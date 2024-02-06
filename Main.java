@@ -1,6 +1,16 @@
-/*
-Kalkulačka pro výpočet řádků nebo znaků v novinovém systému Hermes Lidových novin
+/**
+ * Rychlá kalkulačka pro přepočet novinových řádků na znaky a opačně v redakčním systému Hermes Lidových novin
 */
+
+/**
+ * Dear IntelliJ and Java,
+ *
+ * execute this command please. Thank you very much.
+ *
+ * I am grateful to work with you.
+ *
+ * Pavel
+ */
 
 import java.util.Scanner;
 
@@ -15,16 +25,24 @@ public class Peroutka {
 
         int pocetRadku = a / 29;                        // 1 řádek = 29 znaků
         float pocetZnaku = a * 29;
+        int pocetRadkuOrientace = a / 35;               // 1 řádek = 29 znaků
+        float pocetZnakuOrientace = a * 35;
         float pocetNormostran = pocetZnaku / 1800;      // 1 normostrana = 1800 znaků
         int pocetOtazekZnaku = a / 608;                 // 1 otázka s odpovědí = 608 znaků
         int pocetOtazekRadku = a / 24;                  // 1 otázka s odpovědí = 24 řádků
 
-        System.out.println("\nMS WORD - " + a + " znaků je " + pocetRadku + " řádků v Hermesu");
-        System.out.println("HERMES - " + a + " řádků je " + pocetZnaku + " znaků ve Wordu (což je " + pocetNormostran + " normostran)");
+        System.out.println("\nZNAKY");
+        System.out.println("- MS WORD - " + a + " znaků je " + pocetRadku + " řádků v Hermesu");
+        System.out.println("- ROZHOVOR - " + a + " znaků je " + pocetOtazekZnaku + " otázek s odpověďmi (+ extra perex na 240 znaků)");
 
-        System.out.println("\nROZHOVOR - " + a + " znaků je " + pocetOtazekZnaku + " otázek s odpověďmi (+ extra perex na 240 znaků)");
-        System.out.println("ROZHOVOR - " + a + " řádků je " + pocetOtazekRadku + " otázek s odpověďmi (+ extra perex na 240 znaků)");
+        System.out.println("\nŘÁDKY");
+        System.out.println("- HERMES - " + a + " řádků je " + pocetZnaku + " znaků ve Wordu (což je " + pocetNormostran + " normostran)");
+        System.out.println("- ROZHOVOR - " + a + " řádků je " + pocetOtazekRadku + " otázek s odpověďmi (+ extra perex na 240 znaků)");
 
-        System.out.println("\nDíky za použití a někdy se zase stavte :)");
+        System.out.println("\nORIENTACE LN");
+        System.out.println("- MS WORD - " + a + " znaků je " + pocetRadkuOrientace + " řádků v Hermesu");
+        System.out.println("- HERMES - " + a + " řádků je " + pocetZnakuOrientace + " znaků ve Wordu (což je " + pocetNormostran + " normostran)");
+
+        System.out.println("\nDíky za použití a někdy se zase stavte!");
     }
 }
